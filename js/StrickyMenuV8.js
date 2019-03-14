@@ -1,4 +1,4 @@
-//-------------------Positionnement Sticky Menu --------------------------
+//-------------------Positionnement Sticky Menu -------------------------------
 let MyMenu = document.querySelector('.navbar');
 let MyMenuPosition = MyMenu.getBoundingClientRect().top;
 let MyMenuPositionBottom = MyMenu.getBoundingClientRect().bottom;
