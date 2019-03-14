@@ -1,3 +1,4 @@
+//-------------------Positionnement Sticky Menu --------------------------
 let MyMenu = document.querySelector('.navbar');
 let MyMenuPosition = MyMenu.getBoundingClientRect().top;
 let MyMenuPositionBottom = MyMenu.getBoundingClientRect().bottom;
@@ -10,24 +11,19 @@ window.addEventListener('scroll', function() {
         MyMenu.style.top = '';
     }
 });
-//----------------------------------------------------------------------------
-//let TabMyRubrik=new Array();
-//let MyRubrikPosition = MyRubrique.getBoundingClientRect().top;
+//-------------------Positionnement Modal -------------------------------
+
 for (let i=0;i<NbrRub;i++){
-//TabMyRubrik[i]= TabRub[i];
-	//console.log(TabRub[i]);
+
 window.addEventListener('scroll', function() {
 	let MyMenuPositionBottom = MyMenu.getBoundingClientRect().bottom;
 	MyMenuPositionBottom=MyMenuPositionBottom-4;
-    if (window.pageYOffset >= MyMenuPosition) {
-		
-		console.log(MyMenuPositionBottom);
+    if (window.pageYOffset >= MyMenuPosition) {			
         TabRub[i].style.position = 'fixed';
-        TabRub[i].style.marginTop = '0px';
-		//console.log(MyMenuPosition);
+        TabRub[i].style.marginTop = '0px';	
     } else {
         TabRub[i].style.position = 'fixed';
         TabRub[i].style.top = MyMenuPositionBottom+"px";
     }
 });
-}//fin for0
+}//fin for
