@@ -102,7 +102,7 @@ padding:5px;
 .searchbar{
     margin-bottom: auto;
     margin-top: auto;
-    height: 30px;
+    height: 40px;
     background-color: #fbfbf8;
     border-radius: 20px;
     padding: 10px;
@@ -114,7 +114,7 @@ padding:5px;
     background: none;
     width: 0;
     caret-color:transparent;
-    line-height: 20px;
+    line-height: 5px;
     transition: width 0.4s linear;
     }
     .searchbar:hover > .search_input{
