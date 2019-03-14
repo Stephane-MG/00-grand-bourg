@@ -1,0 +1,49 @@
+/* Bleu-->#4b87bc
+Vert--->#5eb745
+Marron-->#765009 RubriqueMenu
+White-->#fbfbf8
+Noir */
+
+.MyBigFooter{
+    padding-top: 0px !important;
+}
+.MySizeRow{
+    margin-left: 0px !important;
+}
+.MyColor01{
+    color: rgba(251, 251, 248, 1);
+}
+.MyFooterColor{
+    background-color: rgba(75, 135, 188, 1);
+}
+.MyColorFond01{
+    background-color: rgba(118, 80, 9, 1);
+}
+.MyColorFond02{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.MyColorFond03{
+    background-color: rgba(94, 183, 69, 1);
+}
+.MyFormSize{
+    padding-top: 15px !important;
+}
+.MyLink01:hover{
+    color: rgba(94, 183, 69, 1);
+    text-decoration: none !important;
+} 
+.MyLink02:hover{
+    color: rgba(94, 183, 69, 1);
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+#MyBorderNewsletter{
+    border-color: rgba(251, 251, 248, 1);
+    margin-top: 30px;
+}
+#MyBorderNewsletter:hover{
+    color: rgba(94, 183, 69, 1);
+}

@@ -1,0 +1,29 @@
+
+
+ /*Modal Menu*/ 
+.MyModalDeck{
+    width: 100% !important;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+    
+}
+.CaTitre{
+    color: rgb(94, 183, 69);
+    font-weight:bold;
+    font-size:1.3rem;
+}
+.ImgModal{
+    border-bottom:2px solid rgb(94, 183, 69);
+    flex-shrink:0;
+
+}
+.CardModal{
+    border:thin solid rgb(94, 183, 69);
+    
+}
+
+.ModalSize{
+    width: 250px;
+}
+/* Fin Modal Menu*/

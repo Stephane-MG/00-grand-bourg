@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'stingrayregular';
+    src: url('../font/titre/stingray-webfont.woff2') format('woff2'),
+         url('../font/titre/stingray-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sanford_book';
+    src: url('../font/corps/sanford-0103_demo-webfont.woff2') format('woff2'),
+         url('../font/corps/sanford-0103_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

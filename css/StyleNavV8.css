@@ -1,0 +1,144 @@
+/* Bleu-->#4b87bc
+Vert--->#5eb745
+Marron-->#765009 RubriqueMenu
+White-->#fbfbf8
+Noir */
+.ContainerMenu{
+   background-color: #765009;
+	margin-top:-8px !important;
+	margin-left: 0px !important;
+	margin-right: 5px !important;
+	border-radius: 15px;
+	width:100%;
+	z-indzx:999;
+}
+.MyIco{
+	height:55px;
+	width:55px;
+	background-image:url("../image/MyIcon.ico");
+	border-radius: 15px;
+	border: thin solid #765009;
+
+}
+.MyIco:hover{
+	height:55px;
+	width:55px;
+	background-image:url("../image/MyIcon.ico");
+	border-radius: 15px;
+	border: thin solid #4b87bc;
+
+}
+.MyTxtMenu{
+font-family: 'sanford_book';
+color:#fbfbf8!important;
+font-size: 1.0 em;
+	
+}
+.MyTxtMenu:hover{
+font-family: 'sanford_book';
+color:#4b87bc!important;
+font-size: 1.0 em;
+	
+}
+.MyTxtMenuActive{
+font-family: 'sanford_book';
+color:#5eb745!important;
+font-weight: bold;
+font-size: 1.0 em;
+	
+}
+/*#RubriqueContainer{ 
+    position: fixed;
+    height: 350px;	
+	margin-top: 0.0rem;
+	display: none;
+	padding: 20px;
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	width:100%;
+}*/
+#RubriqueMenu00{   
+	visibility: hidden;
+	position: fixed;
+ /*   border:1px solid black;
+ 	 display: none;
+    height: 250px;	
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;*/
+	z-index: 88;
+}
+#RubriqueMenu01{   
+	visibility: hidden;
+	position: fixed;
+ /*   border:1px solid black;
+ 	display: none;
+    height: 250px;	
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;*/
+	z-index: 88;
+}
+#RubriqueMenu02{   
+	visibility: hidden;
+	position: fixed;
+ /*   border:1px solid black;
+ 	display: none;
+    height: 250px;	
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;*/
+	z-index: 88;
+}
+#RubriqueMenu03{   
+	visibility: hidden;
+	position: fixed;
+ /*   border:1px solid black;
+ 	display: none;
+    height: 250px;	
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;*/
+	z-index: 88;
+}
+#RubriqueMenu04{   
+	visibility: hidden;
+	position: fixed;
+ /*	   border:1px solid black;
+ 	display: none;
+    height: 250px;	
+    background-color:rgba(118,80,9,0.80);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;*/
+	z-index: 88;
+}
+.RubriqueMenu{   
+	/*position: fixed;*/
+    border:1px solid black;
+   /* display: none;*/
+    height: auto;	
+    background-color:rgba(75,135,188,0.60);
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 88;
+	padding: 20px;
+}
+
+.block{
+  /*  border:1px solid black;*/
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.Img{
+    border:1px solid black;
+    height: 70px;
+    width: 100px;
+}
