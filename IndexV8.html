@@ -1,0 +1,455 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maquette V8</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css.map" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="css/StyleNavV8.css" rel="stylesheet">
+	<link href="css/StyleHeaderV8.css" rel="stylesheet">  
+	<link href="css/StyleSectionV8.css" rel="stylesheet">
+	<link href="css/MenuModalsV8.css" rel="stylesheet">
+	<link href="css/StyleFooterV8.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11"/>
+ <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+
+<!--[if IE 9]>
+  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+<![endif]-->
+<!--[if lte IE 8]>
+  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+<![endif]-->
+<!--[if IE 11]>
+<link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie11.min.css" rel="stylesheet">
+<![endif]-->
+  </head>
+<body>
+<!--------------header---------------->
+<header class="row Divheader">
+<div class="col-xs-8 col-sm-8 col-lg-9"> 
+<img class="img-fluid MyLogo" src="image/LogoVille.png" alt="logo"/>	
+</div>
+
+</header>  
+<!----------fin header---------------->
+<div class="row">
+  <div class="col-lg-12">
+<!--------------Nav bar--------------->
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light ContainerMenu">
+		<a class="navbar-brand" href="#"><img class="MyIco"/></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-item nav-link MyTxtMenuActive" href="#">Acceuil </a>
+			<a class="nav-item nav-link MyTxtMenu active" id="Menu00" href="#">La Commune <!--<span class="sr-only">(current)</span>--></a>
+			<a class="nav-item nav-link MyTxtMenu" id="Menu01" href="#">Vivre...</a>
+			<a class="nav-item nav-link MyTxtMenu" id="Menu02" href="#">L'Environement</a>
+			<a class="nav-item nav-link MyTxtMenu" id="Menu03" href="#">Les Services</a>
+			<a class="nav-item nav-link MyTxtMenu" id="Menu04" href="#">Actualités</a>         
+		  </div>
+		</div>
+
+<!-----------Search bar-------------->
+ <div class="col-xs-4 col-sm-4 col-lg-3">
+<!--   <div class="container h-100">-->
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Recherchez...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+  <!--  </div>-->
+    </div>
+    <!-------fin Search bar-------------->
+    </nav>
+<!-----------fin Nav bar-------------->
+
+ <!-----------ModalSous Menu------------>
+ <!--<div id="RubriqueContainer">-->
+	 <div class="col-lg-12 RubriqueMenu" id="RubriqueMenu00">
+		<div class="block">
+		<div class="card-deck MyModalDeck">
+				<div class="ModalSize">
+						<div class="card CardModal">
+								<a href="Lien/Maire-élu.html" target="_blank"><img src="image/maire.jpg" class="card-img-top ImgModal" alt="..."></a>
+							<div class="card-body">
+									<a href="Lien/Maire-élu.html" target="_blank"><h4 class="card-title CaTitre">Le Maire et ses Elus</h4></a>
+								<p class="card-text">
+										Liste des élus<br>
+										Délégations<br>
+										Commissions<br>                              
+								</p>
+							</div>
+						</div>
+						</div>
+				<div class="ModalSize">
+						<div class="card CardModal">
+								<a href="Lien/ConseilMuni.html" target="_blank"><img src="image/conseil muni.jpg" class="card-img-top ImgModal" alt="..."></a>
+							<div class="card-body">
+									<a href="Lien/ConseilMuni.html" target="_blank"><h4 class="card-title CaTitre">Le conseil municipal</h4></a>
+								<p class="card-text">Agenda des conseils municipaux<br>
+										Ordres du jour,Comptes-rendus </p>     
+								
+						</div>
+							</div>
+						</div>
+				<div class="ModalSize">
+		<div class="card CardModal">
+				<a href="Lien/Culture.html" target="_blank"><img src="image/murat.jpg" class="card-img-top ImgModal" alt="..."/></a>
+		<div class="card-body">
+				<a href="Lien/Culture.html" target="_blank"><h4 class="card-title CaTitre">Culture et Patrimoine</h4></a>
+		<p class="card-text">
+		Château Murat<br>
+		Habitation Roussel Trianon<br>
+		La Mare au Punch</p> 
+		</div>
+		</div>
+				</div>
+        
+</div>
+</div>
+</div>
+	<div class="col-lg-12 RubriqueMenu" id="RubriqueMenu01">
+		<div class="block">
+		    <div class="card-deck MyModalDeck">
+						<div class="ModalSize">
+								<div class="card CardModal">
+										<a href="Lien/CadredeVie.html" target="_blank"><img src="image/Cadre.jpg" class="card-img-top ImgModal" alt="..."/></a>
+								<div class="card-body ">
+										<a href="Lien/CadredeVie.html" target="_blank"><h4 class="card-title CaTitre">Cadre de vie</h4></a>
+								<p class="card-text">
+								Propreté et environnement<br>
+								Urbanisme et habitat</p>            
+								</div>          
+								</div>
+										</div>
+        
+				<div class="ModalSize">
+						<div class="card CardModal">
+								<a href="Lien/SportetLoisir.html" target="_blank"><img src="image/Sport.jpg" class="card-img-top ImgModal" alt="..."></a>
+						<div class="card-body">
+								<a href="Lien/SportetLoisir.html" target="_blank"><h4 class="card-title CaTitre">Sport et Loisirs</h4></a>
+						<p class="card-text">Terrains de sport<br>
+						Boulodrome<br>
+						Plages<br>
+						Associations sportives
+						</p>          
+						</div>
+						</div>
+						</div>
+						<div class="ModalSize">
+								<div class="card CardModal">
+										<a href="Lien/Scolarité.html" target="_blank"><img src="image/Scolarite.jpg" class="card-img-top ImgModal" alt="..."/></a>
+									<div class="card-body">
+											<a href="Lien/Scolarité.html" target="_blank"><h4 class="card-title CaTitre">Enfance et Scolarité</h4></a>
+									<p class="card-text">Petite Enfance<br>
+									Education et écoles<br>
+									Restauration et Transport<br>
+									</p>            
+									</div>
+									</div>
+								</div>
+      </div>
+		</div>
+	</div>
+	<div class="col-lg-12 RubriqueMenu" id="RubriqueMenu02">
+		<div class="block">
+				<div class="card-deck MyModalDeck">
+				<div class="ModalSize">
+						<div class="card CardModal">
+								<a href="Lien/Environement.html" target="_blank">	<img src="image/Environnement.jpg" class="card-img-top ImgModal" alt="..."></a>
+						<div class="card-body">
+								<a href="Lien/Environement.html" target="_blank"><h4 class="card-title CaTitre">Environnement et Developpement durable</h4></a>
+						<p class="card-text">Gestion des dechets<br>
+						Galante'Tri</p>
+						</div>
+						</div>
+						</div>
+						</div>
+		</div>
+	</div>
+	<div class="col-lg-12 RubriqueMenu" id="RubriqueMenu03">
+			<div class="block">
+					<div class="card-deck MyModalDeck">
+				<div class="ModalSize">
+					<div class="card CardModal">
+							<a href="Lien/EtatCivil.html" target="_blank"><img src="image/Etat-Civil.jpeg" class="card-img-top ImgModal" alt="..."/></a>
+						<div class="card-body">
+								<a href="Lien/EtatCivil.html" target="_blank"><h4 class="card-title CaTitre">Etat Civil</h4></a>
+						<p class="card-text"><br>Acte de Naissance<br>
+						Inscription liste Electorale<br>
+						</p>            
+						</div>
+						</div>
+					</div>
+					<div class="ModalSize">
+					<div class="card CardModal">
+							<a href="Lien/Annuaire.html" target="_blank">	<img src="image/annuaire2.png" class="card-img-top ImgModal" alt="..."/></a>
+						<div class="card-body">
+								<a href="Lien/Annuaire.html" target="_blank"><h4 class="card-title CaTitre">Annuaires</h4></a>
+						<p class="card-text"><br>Annuaire Commerçant<br>
+						Annuaire de la Mairie<br>
+						</p>            
+						</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		</div>
+	<div class="col-lg-12 RubriqueMenu" id="RubriqueMenu04">
+		<div class="block">
+				<div class="card-deck MyModalDeck">
+						<div class="ModalSize">
+								<div class="card CardModal">
+										<a href="Lien/Agenda.html" target="_blank"><img src="image/agenda2.png" class="card-img-top ImgModal" alt="..."></a>
+									<div class="card-body">
+											<a href="Lien/Agenda.html" target="_blank"><h4 class="card-title CaTitre">Agenda</h4></a>
+										<p class="card-text">
+												<!-- <br>
+												Délégations<br>
+												Commissions<br>                               -->
+										</p>
+									</div>
+								</div>
+								</div>
+	</div>
+<!--</div>-->
+<!--------fin ModalSous Menu ---------->
+ 
+
+ 
+  </div>
+<!-----------fin col --------------->
+</div>
+<!-----------fin row -------------->
+
+<section>
+<!--Accès direct-->                                   
+<div class="row AccesDirect ">
+	<div class="card-deck MyDeck">
+		<div class="col-md-4">
+		<div class="card AccesD" id="Papiers">
+		<div class="card-block CBlock">
+		<p class="card-title ADtitre"> Etat civil et Pièces d'identité</p>
+		<p class="card-text">Texte</p>
+		<a href="#" class="btn btn-primary btn-md" role="button" aria-disabled="true">Accès direct</a>
+		</div>
+		</div>
+		</div>
+		<div class="col-md-4">
+		<div class="card AccesD" id="Famille">
+		<div class="card-block CBlock">
+		<p class="card-title ADtitre">Familles</p>
+		<p class="card-text">Scolarité, Cantine,Transport,...</p>
+		<a href="#" class="btn btn-primary">Accès direct</a>
+		</div>
+		</div>
+		</div>
+		<div class="col-md-4">
+		<div class="card AccesD" id="Autre">
+			<div class="card-block CBlock">
+				<p class="card-title ADtitre">Exemple</p>
+				<p class="card-text">Autres accès directs.</p>
+				<a href="#" class="btn btn-primary">Accès direct</a>
+			</div>
+		</div>
+		</div>      
+	</div>
+</div>
+<!--Fin Accès direct-->
+</section>
+<section>
+<!--Partie Agenda-->                     
+ <div class="row AgendaSection">            
+  <div class="TitreAgenda"> Agenda </div> 
+<div class="card-deck MyDeck">
+    
+  <div class="card bg-light mb-3 MyCard"  style="max-width: 36 rem;">
+    <img src="image/festival.png" class="card-img-top imgAgenda" alt="Festival Terre de Blues">
+      <div class="card-body ">
+      <h4 class="card-title"><bold>Festival Terre de Blues 2019 </bold></h4>
+      <p class="card-text">Du 7 au 10 juin prochain aura lieu le festival TerreDeBlues. Au programme de cette 20ème édition : Malavoi, Ms. Laurynn Hill et Tarrus Riley. </p>
+      <a href="#" class="btn btn-success">Plus d'informations</a><br>
+    </div> 
+    
+  </div>
+  <div class="card card bg-light mb-3 MyCard"  style="max-width: 36 rem;">
+    <img src="image/dd.png" class="card-img-top imgAgenda" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Semaine Développement durable</h4>
+      <p class="card-text">Exemple de texte Développement Durable</p>
+      <a href="#" class="btn btn-success PlusInfo">Plus d'informations</a><br>
+    </div>
+  </div>
+  <div class="card card bg-light mb-3 MyCard" style="max-width: 36 rem;">
+    <img src="image/agenda2.png" class="card-img-top imgAgenda" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Agenda de la commune</h4>
+      <p class="card-text">Retrouvez les dates clés. This card has supporting text below as a natural lead-in to additional content</p>
+      <a href="#" class="btn btn-success">Plus d'informations</a><br>
+    </div>
+    </div>
+  <div class="card card bg-light mb-3 MyCard">
+      <img src="image/vote.png" class="card-img-top imgAgenda" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Inscription liste électorale</h4>
+        <p class="card-text">Vous devez obligatoirement être inscrit(e) sur une liste électorale pour pouvoir voter lors des prochaines élections. Il faut effectuer la démarche en se rendant à la mairie, service "XXX". Vous devez vous inscrire avant la fin de l’année 2019.</p>
+        <a href="#" class="btn btn-success">Plus d'informations</a><br>
+        </div>
+      </div>
+
+</div>
+</div>
+<!--Fin Partie Agenda--> 
+</section>  
+<!--------------footer---------------->
+<footer class="page-footer font-small pt-4 MyBigFooter">
+
+		<div class="text-center text-md-left MyFooterColor">
+	
+			<div class="row MySizeRow">
+	
+					<hr class="clearfix w-100 d-md-none">
+												<!-- Début Liens Utile -->
+				<div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">      
+					<h5 class="font-weight-bold text-uppercase mb-4 MyColor01">Liens Utiles</h5>
+
+							<ul class="list-unstyled">
+								<li>
+									<p>
+										<a href="https://www.ot-mariegalante.com/" target="new" class="MyLink01 MyLink01 MyColor01">Office du Tourisme</a>
+									</p>
+								</li>
+								<li>
+									<p>
+										<a href="http://www.guadeloupe.gouv.fr/" target="new" class="MyLink01 MyLink01 MyColor01">Préfecture</a>
+									</p>
+								</li>
+								<li>
+									<p>
+										<a href="https://www.paysmariegalante.fr/node/1" target="new" class="MyLink01 MyLink01 MyColor01">Communauté des communes</a>
+									</p>
+								</li>
+								<!-- <li>
+									<p>
+										<a href="#" class="MyLink01 MyColor01"></a>
+									</p>
+								</li> -->
+							</ul>
+
+					</div>
+														<!-- Fin Liens Utile -->
+					<hr class="clearfix w-100 d-md-none">
+											<!-- Début Adresse de la Mairie -->
+					<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1 MyColor01">
+	
+						<h5 class="font-weight-bold text-uppercase mb-4">ADRESSE</h5>
+	
+						<ul class="list-unstyled">
+							<li>
+								<p>
+									<i class="fas fa-home mr-3"></i>
+									Marie-Galante
+									Place Schoelcher
+									BP 47</br>
+									97112 Grand-Bourg
+								</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-envelope mr-3"></i>grand-bourg.ville@wanadoo.fr</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-phone mr-3"></i>0590 97 90 08</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-print mr-3"></i>0590 97 76 59</p>
+							</li>
+						</ul>
+	
+					</div>
+											<!-- Fin Adresse de la Mairie -->
+					<hr class="clearfix w-100 d-md-none">
+													<!-- Début de la Modal Newsletter -->
+					<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+				
+							<div class="modal-header text-center">
+								<h4 class="modal-title w-100 font-weight-bold">Inscrivez-vous</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+				
+							<div class="modal-body mx-3">
+				
+								<div class="md-form mb-5">
+									<i class="fas fa-user prefix grey-text"></i>
+									<input type="text" id="form34" class="form-control validate">
+									<label data-error="wrong" data-success="right" for="form34">Votre Nom</label>
+								</div>
+				
+								<div class="md-form mb-5">
+										<i class="fas fa-user prefix grey-text"></i>
+										<input type="text" id="form34" class="form-control validate">
+										<label data-error="wrong" data-success="right" for="form34">Votre Prénom</label>
+								</div>
+				
+								<div class="md-form mb-5">
+									<i class="fas fa-envelope prefix grey-text"></i>
+									<input type="email" id="form29" class="form-control validate">
+									<label data-error="wrong" data-success="right" for="form29">Votre Email</label>
+								</div>
+				
+							</div>
+				
+							<div class="modal-footer d-flex justify-content-center">
+								<button class="btn btn-unique">Envoyer<i class="fas fa-paper-plane-o ml-1"></i></button>
+							</div>
+				
+						</div>
+					</div>
+				</div>
+				
+				<div class="text-center">
+					<a href="" id="MyBorderNewsletter" class="btn btn-default btn-rounded mb-4 MyColor01" data-toggle="modal" data-target="#modalContactForm">Newsletter</a>
+				</div>
+																<!-- Fin de la Modal Newsletter -->
+					<hr class="clearfix w-100 d-md-none">
+														<!-- Début Icon Réseau sociaux -->
+					<div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+	
+						<h5 class="font-weight-bold text-uppercase mb-4 MyColor01">Suivez nous</h5>
+	
+							<a class="btn-floating btn-lg btn-fb" href="https://www.facebook.com/VilleGB/" target="new"><i class="fab fa-facebook-f MyLink02 MyColor01"></i></a>
+							<a class="btn-floating btn-lg btn-email" href="#" role="button"><i class="fas fa-envelope MyLink02 MyColor01"></i></a>
+	
+					</div>
+															<!-- Fin Icon Réseau sociaux -->
+				</div>
+	
+			</div>
+	
+			<!-- <div class="footer-copyright text-center py-3 MyColorFond02 MyColor01">
+				<a href="#">grand-bourg.fr</a>
+			</div> -->
+	
+		</footer>
+<!----------fin Footer---------------->
+</body>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ModalFinalV8.js"></script>
+<script src="js/StrickyMenuV8.js"></script>	
+</html>
+
+
